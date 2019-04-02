@@ -1,0 +1,125 @@
+@font-face {
+  font-family: robotoLight;
+  src: url(fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+  font-family: roboto;
+  src: url(fonts/Roboto-Regular.ttf);
+}
+
+body {
+	background-color: rgba(0, 0, 0, 0.85);
+	color: #ced7f2;
+	text-align: center;
+	background-image: url("pics/background.jpg");
+	background-repeat: true true;
+	padding: none;
+}
+
+.nav {
+  background-color: rgba(15, 15, 15, 0.95);
+  border-bottom: 2px black solid;
+  height: 70px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav img {
+	height: 65px;
+	width: auto;
+	padding-bottom: 5px;
+}
+
+.logo {
+	float: left;
+	height: 80%;
+	padding-top: 10px;
+	width: auto;
+}
+
+#backLayer {
+	background-color: rgba(24, 24, 24, 0.85);
+	position: fixed;
+	top: 72px;
+	left: 0;
+	right: 0;
+	bottom: 42px;
+}
+
+#main {	
+	margin-top: 0px;
+	padding-top: 0px;
+	overflow: auto;
+	height: 100%;
+	margin-bottom: 40px;
+}
+
+.array {
+	margin: 30px;
+	width: 95%;
+	display:flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.line {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.double {
+	height: 100px;
+	width: 200px;
+	margin: 0px;
+	border: 1px black solid;
+	display: flex;
+	flex-direction: row; 
+	justify-content: center;
+	align-items: center;
+}
+
+.color1 {
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.color2 {
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+footer {
+	text-align: center;
+	background-color: rgba(15, 15, 15, 0.95);
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	border-top: 2px black solid;
+	margin-top: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: middle;
+	color: #571778;
+	overflow: hidden;
+}
+
+.actions button {
+	border-radius: 5px;
+	width: 200px;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-color: rgba(0, 0, 0, 0.8);
+}
+
+.heading {
+	margin-top: 10px;
+	font-size: 18px;
+}
